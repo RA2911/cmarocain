@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consortium Marocain - Produits chimiques, auxiliaires, colorants et pigments pour l'industrie depuis 1951">
+    <meta name="keywords" content="chimie, produits chimiques, colorants, pigments, Maroc, industrie">
+    <title>Consortium Marocain | Produits Chimiques Industriels depuis 1951</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo_cm.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="index.html" class="logo-container">
+            <img src="images/logo_cm.jpg" alt="Consortium Marocain Logo">
+        </a>
+
+        <nav class="main-menu" id="mainMenu">
+            <a href="index.html" class="menu-item active">Accueil</a>
+            <a href="a-propos.html" class="menu-item">A Propos</a>
+            <a href="produits.html" class="menu-item">Nos Produits</a>
+            <a href="partenaires.html" class="menu-item">Partenaires</a>
+            <a href="contact.html" class="menu-item">Contact</a>
+        </nav>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero-video-section" id="home">
+        <div class="video-wrap">
+            <video autoplay muted loop playsinline id="heroVideo">
+                <source src="images/bg_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-overlay"></div>
+
+        <div class="hero-main-content">
+            <!-- Left: Video Catalog -->
+            <div class="catalog-box" id="videoCatalogBox">
+                <div class="catalog-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </div>
+                <h3>Video Catalogue</h3>
+                <p>Decouvrez notre Entreprise</p>
+            </div>
+
+            <!-- Center: Title -->
+            <div class="hero-text-content">
+                <img src="images/CM_logo.png" alt="Consortium Marocain" class="hero-logo">
+                <h1>Consortium Marocain</h1>
+                <p class="hero-subtitle">Produits chimiques, auxiliaires, colorants & pigments</p>
+                <p class="hero-tagline">Au service de l'industrie depuis 1951</p>
+            </div>
+
+            <!-- Right: Image Catalog -->
+            <div class="catalog-box" id="imageCatalogBox">
+                <div class="catalog-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                    </svg>
+                </div>
+                <h3>Produits Catalogue</h3>
+                <p>Explorez nos gammes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal-overlay" id="videoModal">
+        <div class="modal-content video-modal">
+            <button class="modal-close" id="closeVideoModal">&times;</button>
+            <div class="video-container">
+                <video controls id="modalVideo">
+                    <source src="images/CM_Video_Final_with_captions.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Catalog Modal -->
+    <div class="modal-overlay" id="imageModal">
+        <div class="modal-content image-modal">
+            <button class="modal-close" id="closeImageModal">&times;</button>
+            <h2>Nos Gammes de Produits</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/slide_chimie.png" alt="Expertise Chimique">
+                    <span>Expertise Chimique</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_alimentaire.jpeg" alt="Industrie Alimentaire">
+                    <span>Industrie Alimentaire</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_colles.jpeg" alt="Colles & Adhesifs">
+                    <span>Colles & Adhesifs</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_cuir.jpeg" alt="Industrie du Cuir">
+                    <span>Industrie du Cuir</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_cosmetique.jpeg" alt="Cosmetique">
+                    <span>Cosmetique & Detergence</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_papier.jpeg" alt="Industrie Papetiere">
+                    <span>Industrie Papetiere</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_eaux.png" alt="Traitement des Eaux">
+                    <span>Traitement des Eaux</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_peinture.jpeg" alt="Peinture & Batiment">
+                    <span>Peinture & Batiment</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_textile.jpeg" alt="Industrie Textile">
+                    <span>Industrie Textile</span>
+                </div>
+                <div class="image-item">
+                    <img src="images/slide_pharma.jpeg" alt="Industrie Pharmaceutique">
+                    <span>Industrie Pharmaceutique</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key Figures Section -->
+    <section class="key-figures">
+        <div class="figures-grid">
+            <div class="figure-item">
+                <div class="figure-number">75+</div>
+                <div class="figure-label">Annees d'experience</div>
+            </div>
+            <div class="figure-item">
+                <div class="figure-number">645+</div>
+                <div class="figure-label">Clients satisfaits</div>
+            </div>
+            <div class="figure-item">
+                <div class="figure-number">60+</div>
+                <div class="figure-label">Collaborateurs</div>
+            </div>
+            <div class="figure-item">
+                <div class="figure-number">40+</div>
+                <div class="figure-label">Partenaires internationaux</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section">
+        <h2 class="section-title">Qui Sommes-Nous?</h2>
+        <p class="section-subtitle">Leader marocain dans la distribution et la fabrication de produits chimiques de specialites</p>
+
+        <div class="about-intro">
+            <div class="about-text">
+                <h3>Une expertise reconnue depuis plus de 70 ans</h3>
+                <p>Consortium Marocain (CM) est l'un des principaux importateurs, distributeurs et fabricants de produits chimiques pour l'industrie marocaine, tous secteurs confondus.</p>
+                <p>Presente dans divers secteurs d'activites, CM a su s'imposer comme un acteur incontournable au Maroc dans la distribution de produits chimiques de specialites utilises dans differents procedes et secteurs industriels.</p>
+                <p>Certifiee ISO 9001 depuis 2004 et ONSSA pour le secteur alimentaire, nous garantissons a nos clients les plus hauts standards de qualite.</p>
+                <a href="a-propos.html" class="btn btn-primary" style="margin-top: 20px;">En savoir plus</a>
+            </div>
+            <div class="about-image">
+                <img src="images/slide_chimie.png" alt="Laboratoire Consortium Marocain">
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section class="section section-light">
+        <h2 class="section-title">Certification</h2>
+        <p class="section-subtitle">Des standards de qualite reconnus internationalement pour garantir l'excellence de nos produits et services</p>
+
+        <div class="certification-container">
+            <div class="certification-item">
+                <div class="certification-image">
+                    <img src="images/ISO.jpg" alt="Certification ISO 9001">
+                </div>
+                <div class="certification-text">
+                    <h3>ISO 9001</h3>
+                    <p>Certifiee ISO 9001 depuis 2004, Consortium Marocain s'engage a maintenir un systeme de management de la qualite rigoureux.</p>
+                    <p>Cette certification garantit a nos clients des processus optimises et une amelioration continue de nos services.</p>
+                </div>
+            </div>
+            <div class="certification-item">
+                <div class="certification-image">
+                    <img src="images/ONSSA.jpg" alt="Certification ONSSA">
+                </div>
+                <div class="certification-text">
+                    <h3>ONSSA</h3>
+                    <p>Notre certification ONSSA atteste de la conformite de nos produits aux normes de securite alimentaire marocaines.</p>
+                    <p>Elle assure a nos clients du secteur agroalimentaire des produits surs et conformes aux reglementations en vigueur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notre Expertise Section -->
+    <section class="section">
+        <h2 class="section-title">Notre Expertise</h2>
+        <p class="section-subtitle">Un savoir-faire reconnu au service de l'industrie marocaine</p>
+
+        <div class="expertise-grid">
+            <div class="expertise-box">
+                <div class="expertise-image">
+                    <img src="images/Exp1.jpg" alt="Distribution de produits chimiques">
+                </div>
+                <div class="expertise-content">
+                    <h3>Distribution de produits chimiques de specialite</h3>
+                    <p>Solutions chimiques adaptees aux besoins industriels.</p>
+                </div>
+            </div>
+            <div class="expertise-box">
+                <div class="expertise-image">
+                    <img src="images/Exp2.jpg" alt="Expertise technique">
+                </div>
+                <div class="expertise-content">
+                    <h3>Expertise technique sectorielle</h3>
+                    <p>Accompagnement des industries dans l'optimisation des procedes.</p>
+                </div>
+            </div>
+            <div class="expertise-box">
+                <div class="expertise-image">
+                    <img src="images/Exp3.jpg" alt="Qualite et conformite">
+                </div>
+                <div class="expertise-content">
+                    <h3>Qualite et conformite reglementaire</h3>
+                    <p>Certifications ISO 9001 et ONSSA garantissant fiabilite et securite.</p>
+                </div>
+            </div>
+            <div class="expertise-box">
+                <div class="expertise-image">
+                    <img src="images/Exp4.jpg" alt="Couverture industrielle">
+                </div>
+                <div class="expertise-content">
+                    <h3>Large couverture industrielle</h3>
+                    <p>Solutions pour l'agroalimentaire, l'eau, la pharmacie, les adhesifs et les peintures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Preview -->
+    <section class="section section-light">
+        <h2 class="section-title">Nos Partenaires</h2>
+        <p class="section-subtitle">Nous travaillons avec les meilleurs fournisseurs internationaux</p>
+
+        <div class="partners-grid" style="max-width: 1000px;">
+            <div class="partner-item partner-logo"><img src="images/Companies/lamberti.png" alt="Lamberti"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/stahl.png" alt="Stahl"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/SNF.jpg" alt="SNF Group"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/cht.png" alt="CHT"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/cpkelko.png" alt="CP Kelco"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/Kukdo.png" alt="Kukdo"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/berg.png" alt="Berg & Schmidt"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/suez.png" alt="Suez"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/provital.jpg" alt="Provital"></div>
+            <div class="partner-item partner-logo"><img src="images/Companies/eoc.jfif" alt="EOC Group"></div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="partenaires.html" class="btn btn-primary">Voir tous nos partenaires</a>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-dark">
+        <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <h2 class="section-title">Besoin d'une solution chimique?</h2>
+            <p class="section-subtitle">Notre equipe technique est a votre disposition pour vous accompagner dans vos projets</p>
+            <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Contactez-nous</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="images/logo_cm.jpg" alt="Consortium Marocain">
+                <p>Consortium Marocain, votre partenaire en produits chimiques industriels depuis 1951.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">A Propos</a></li>
+                    <li><a href="produits.html">Nos Produits</a></li>
+                    <li><a href="partenaires.html">Partenaires</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li>+212 522 308 822</li>
+                    <li>info@consortiummarocain.com</li>
+                    <li>Casablanca, Maroc</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Consortium Marocain. Tous droits reserves.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
